@@ -1,0 +1,12 @@
+161250222@smail.nju.edu.cn
+zachary51415
+Xiaowangshu51415
+
+git add file
+git commit -m <message>
+git diff file
+git log
+git log --pretty=oneline
+git reset --hard "HEAD"
+git reset --hard 1094a
+git reflog
