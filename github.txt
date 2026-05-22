@@ -1,11 +1,30 @@
-zachary51415
-1017791859@qq.com
+git本地仓库
+git账户名：zachary51415
+git邮箱：1017791859@qq.com
 
-git add file
-git commit -m <message>
+git init 仓库初始化
+git status 查看文件状态
+
+git remote -v 查看远程仓库地址
+git remote add origin +仓库地址 关联远程仓库
+git remote set=url origin +新地址 修改远程地址
+
+git branch +分支名 创建分支
+git switch —+分支名 切换分支
+
+git clone + 地址 下载整个项目
+
+git log 查看提交历史
+git log --pretty=oneline 
+
+git commit -m <message> 提交
+git pull 拉取云端最新代码
+git push 推送代码到云端
+git fetch 拉取云端更新（不合并）
+
+git add file 添加到暂存区
 git diff file
-git log
-git log --pretty=oneline
+
 git reset --hard "HEAD"
 git reset --hard 1094a
 git reflog
